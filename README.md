@@ -11,8 +11,7 @@
 </p>
 
 <p align="center">
-  Shenzhen, China · ML Systems &amp; Infrastructure ·
-  <a href="mailto:icey08852@gmail.com">Let's connect</a>
+  Electronic Information Engineering Student · ML Engineering · Image &amp; Video Quality Assessment
 </p>
 
 ---

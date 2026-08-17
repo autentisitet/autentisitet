@@ -11,13 +11,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/autentisitet">GitHub</a> ·
-  <a href="mailto:icey08852@gmail.com">Email</a>
-</p>
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=autentisitet&show_icons=true&hide_border=true&rank_icon=github&theme=transparent" alt="autentisitet's GitHub statistics" />
-  <img height="165" src="https://streak-stats.demolab.com?user=autentisitet&theme=transparent&hide_border=true" alt="autentisitet's contribution streak" />
+  Shenzhen, China · ML Systems &amp; Infrastructure ·
+  <a href="mailto:icey08852@gmail.com">Let's connect</a>
 </p>
 
 ---

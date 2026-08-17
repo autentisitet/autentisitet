@@ -11,13 +11,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/autentisitet">GitHub</a> ·
-  <a href="mailto:icey08852@gmail.com">邮箱</a>
-</p>
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=autentisitet&show_icons=true&hide_border=true&rank_icon=github&theme=transparent" alt="autentisitet 的 GitHub 统计" />
-  <img height="165" src="https://streak-stats.demolab.com?user=autentisitet&theme=transparent&hide_border=true" alt="autentisitet 的连续贡献记录" />
+  中国深圳 · 机器学习系统与基础设施 ·
+  <a href="mailto:icey08852@gmail.com">联系我</a>
 </p>
 
 ---

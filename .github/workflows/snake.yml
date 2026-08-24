@@ -22,7 +22,7 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg?color_snake=%23c084fc
-            dist/github-contribution-grid-snake-dark.svg?color_snake=%23c084fc&color_dots=%23161b22,%230e4429,%23006d32,%2326a641,%2339d353
+            dist/github-contribution-grid-snake-dark.svg?color_snake=%23c084fc&color_dots=%23161b22,%23105a35,%231b7a45,%232fae62,%2356d982
             dist/github-contribution-grid-snake-mobile-dark.svg?color_snake=%23c084fc&color_dots=%23161b22,%230e4429,%23006d32,%2326a641,%2339d353
 
       - name: Publish animation to output branch

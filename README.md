@@ -5,8 +5,8 @@
 </p>
 
 <p align="center">
-  <a href="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=2500&pause=900&color=58A6FF&center=true&vCenter=true&width=600&lines=ML+Engineering+%C2%B7+Computer+Vision+%C2%B7+Inference+Systems;Turning+ML+experiments+into+reproducible+software.">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=2500&pause=900&color=58A6FF&center=true&vCenter=true&width=600&lines=ML+Engineering+%C2%B7+Computer+Vision+%C2%B7+Inference+Systems;Turning+ML+experiments+into+reproducible+software." alt="ML Engineering, Computer Vision, Inference Systems" />
+  <a href="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=2500&pause=900&color=58A6FF&center=true&vCenter=true&width=600&lines=ML+Engineering+%C2%B7+Computer+Vision;Inference+Systems+%C2%B7+Reproducible+Software">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=2500&pause=900&color=58A6FF&center=true&vCenter=true&width=600&lines=ML+Engineering+%C2%B7+Computer+Vision;Inference+Systems+%C2%B7+Reproducible+Software" alt="ML Engineering, Computer Vision, Inference Systems" />
   </a>
 </p>
 
@@ -28,15 +28,14 @@ My current focus is image and video quality assessment, with an emphasis on reli
 
 ### [deep-vqa-framework](https://github.com/autentisitet/deep-vqa-framework)
 
-An end-to-end ML system for no-reference image and video quality assessment, connecting dataset reliability, model development, evaluation, and deployable inference.
+A PyTorch platform for no-reference image and video quality assessment, covering data checks, model training, evaluation, and inference deployment.
 
 - A unified `IQAVQANet` for image IQA and video VQA, using configurable ImageNet backbones and Transformer-based temporal fusion
-- Media integrity auditing with actual image/video decoding, corrupted-sample isolation, and label-preserving rejection
+- Media integrity checks that decode inputs before training and isolate unreadable samples
 - Group-aware train/validation/test and K-fold splitting to reduce leakage from repeated reference content
 - A hybrid MOS regression and pairwise-ranking objective for quality prediction
 - Evaluation and interpretability workflows covering PLCC, SROCC, KROCC, RMSE, residual diagnostics, MOS-bin analysis, feature distributions, and Grad-CAM
-- Checkpoint contracts connecting training artifacts to batch inference, FastAPI serving, and browser-based evaluation
-- A browser workbench for upload, scoring, session-scoped history, and model interpretation
+- A browser workbench for uploading media, running selected checkpoints, viewing scores and history, and inspecting model interpretations
 - SQLite-backed evaluation history for internal single-instance deployments, with a stateless storage mode for protected public deployments
 - Optional Ollama integration for technical quality descriptions and auxiliary subjective scoring, kept separate from the core IQA/VQA model
 - Docker/Podman deployment with Nginx, health checks, deployment profiles, GitHub Actions validation, and `uv`-managed environments
@@ -45,7 +44,7 @@ The project treats data validation, leakage control, model evaluation, artifact 
 
 ## Tech I use most
 
-Python · PyTorch · OpenCV · Decord · FastAPI · Docker · GitHub Actions · Bash
+Python · PyTorch · OpenCV · FastAPI · SQLite · Nginx · Docker/Podman · Makefile · GitHub Actions · Bash
 
 ## Contribution trail
 

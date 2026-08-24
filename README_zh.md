@@ -5,8 +5,8 @@
 </p>
 
 <p align="center">
-  <a href="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=2500&pause=900&color=58A6FF&center=true&vCenter=true&width=600&lines=ML+Engineering+%C2%B7+Computer+Vision+%C2%B7+Inference+Systems;Turning+ML+experiments+into+reproducible+software.">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=2500&pause=900&color=58A6FF&center=true&vCenter=true&width=600&lines=ML+Engineering+%C2%B7+Computer+Vision+%C2%B7+Inference+Systems;Turning+ML+experiments+into+reproducible+software." alt="机器学习工程、计算机视觉与推理系统" />
+  <a href="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=2500&pause=900&color=58A6FF&center=true&vCenter=true&width=600&lines=ML+Engineering+%C2%B7+Computer+Vision;Inference+Systems+%C2%B7+Reproducible+Software">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=2500&pause=900&color=58A6FF&center=true&vCenter=true&width=600&lines=ML+Engineering+%C2%B7+Computer+Vision;Inference+Systems+%C2%B7+Reproducible+Software" alt="机器学习工程、计算机视觉与推理系统" />
   </a>
 </p>
 
@@ -28,15 +28,14 @@
 
 ### [deep-vqa-framework](https://github.com/autentisitet/deep-vqa-framework)
 
-一个面向无参考图像与视频质量评价的端到端机器学习系统，打通数据可靠性、模型开发、评估与可部署推理。
+一个基于 PyTorch 的无参考图像与视频质量评价平台，覆盖数据检查、模型训练、评估和推理部署。
 
 - 统一的 `IQAVQANet` 同时支持图像 IQA 与视频 VQA，并使用可配置的 ImageNet 主干网络和 Transformer 时序融合
-- 通过实际图像/视频解码进行媒体完整性审计，隔离损坏样本，并在拒绝样本时保留标签对应关系
+- 在训练前解码输入文件进行媒体完整性检查，并隔离无法读取的样本
 - 使用分组的训练/验证/测试划分与 K 折划分，降低重复参考内容造成的数据泄漏
 - 结合 MOS 回归与成对排序目标，预测感知质量
 - 提供覆盖 PLCC、SROCC、KROCC、RMSE、残差诊断、MOS 分箱分析、特征分布与 Grad-CAM 的评估和可解释性工作流
-- 通过检查点契约连接训练产物、批量推理、FastAPI 服务与浏览器评估
-- 提供支持上传、评分、会话级历史记录和模型解释的浏览器工作台
+- 提供浏览器工作台，支持上传媒体、运行选定检查点、查看评分与历史记录，以及检查模型解释结果
 - 使用 SQLite 保存内部单实例部署的评估历史，同时为受保护的公共部署提供无状态存储模式
 - 可选集成 Ollama，用于生成技术质量描述和辅助主观评分，但与核心 IQA/VQA 模型保持解耦
 - 使用 Docker/Podman、Nginx、健康检查、部署 profile、GitHub Actions 验证与 `uv` 管理部署环境
@@ -45,7 +44,7 @@
 
 ## 常用技术
 
-Python · PyTorch · OpenCV · Decord · FastAPI · Docker · GitHub Actions · Bash
+Python · PyTorch · OpenCV · FastAPI · SQLite · Nginx · Docker/Podman · Makefile · GitHub Actions · Bash
 
 ## 贡献轨迹
 

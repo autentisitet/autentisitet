@@ -1,58 +1,51 @@
-<h1 align="center">Hi, I'm autentisitet👋</h1>
+<h1 align="center">Hi, I'm autentisitet 👋</h1>
 
 <p align="center">
   <strong>English</strong> · <a href="README_zh.md">简体中文</a>
 </p>
 
 <p align="center">
-  <a href="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=2500&pause=900&color=58A6FF&center=true&vCenter=true&width=600&lines=ML+Systems+%C2%B7+Infrastructure+%C2%B7+Automation;Building+systems+that+actually+get+used.">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=2500&pause=900&color=58A6FF&center=true&vCenter=true&width=600&lines=ML+Systems+%C2%B7+Infrastructure+%C2%B7+Automation;Building+systems+that+actually+get+used." alt="ML Systems, Infrastructure, Automation" />
+  <a href="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=2500&pause=900&color=58A6FF&center=true&vCenter=true&width=600&lines=ML+Engineering+%C2%B7+Computer+Vision+%C2%B7+Inference+Systems;Turning+ML+experiments+into+reproducible+software.">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=2500&pause=900&color=58A6FF&center=true&vCenter=true&width=600&lines=ML+Engineering+%C2%B7+Computer+Vision+%C2%B7+Inference+Systems;Turning+ML+experiments+into+reproducible+software." alt="ML Engineering, Computer Vision, Inference Systems" />
   </a>
 </p>
 
 <p align="center">
-  Electronic Information Engineering Student · ML Engineering · Image &amp; Video Quality Assessment
+  Electronic Information Engineering undergraduate at Shenzhen University · Class of 2027
 </p>
 
----
+I build reproducible machine-learning systems that connect data validation, model training, evaluation, and inference delivery.
 
-## Contents
-
-- [What I build](#what-i-build)
-- [Featured project](#featured-project)
-- [What I use most](#what-i-use-most)
-- [Contribution trail](#contribution-trail)
-- [Let's connect](#lets-connect)
-
-I'm an Electronic Information Engineering undergraduate at Shenzhen University (2023–2027). I build training pipelines, inference services, evaluation frameworks, and the automation that connects them.
-
-I currently apply this work to image and video quality assessment. My broader interest is building ML software that is reproducible, maintainable, and practical to use.
+My current focus is image and video quality assessment, with an emphasis on reliable data workflows, PyTorch model development, and practical inference services.
 
 ## What I build
 
-- **ML systems** — training pipelines, configuration-driven experiments, evaluation workflows, and inference services
-- **Infrastructure & automation** — containers, CI pipelines, reproducible environments, and developer tooling
-- **Applied computer vision** — image and video quality assessment as a practical application of end-to-end ML engineering
+- **ML engineering** — configuration-driven training, evaluation, checkpoints, and experiment artifacts
+- **Computer vision** — image and video quality assessment with spatial and temporal modeling
+- **Inference systems** — FastAPI services, batch inference, containerization, and CI validation
 
 ## Featured project
 
 ### [deep-vqa-framework](https://github.com/autentisitet/deep-vqa-framework)
 
-A configuration-driven deep-learning framework for Image Quality Assessment (IQA) and Video Quality Assessment (VQA).
+An end-to-end ML system for no-reference image and video quality assessment, connecting dataset reliability, model development, evaluation, and deployable inference.
 
-- A shared PyTorch model interface for 4D image and 5D video inputs
-- Swin-T-based feature extraction for image and video quality assessment
-- Temporal feature aggregation for video inputs
-- YAML-configured experiments and group-aware K-fold cross-validation, defaulting to five folds
-- Data loading, validation, training, and evaluation workflows for TID2013 and KoNViD-1k
-- FastAPI and CLI inference with checkpoints loaded at startup
-- Docker/Podman environments, GitHub Actions CI, and `uv`-managed dependencies
+- A unified `IQAVQANet` for image IQA and video VQA, using configurable ImageNet backbones and Transformer-based temporal fusion
+- Media integrity auditing with actual image/video decoding, corrupted-sample isolation, and label-preserving rejection
+- Group-aware train/validation/test and K-fold splitting to reduce leakage from repeated reference content
+- A hybrid MOS regression and pairwise-ranking objective for quality prediction
+- Evaluation and interpretability workflows covering PLCC, SROCC, KROCC, RMSE, residual diagnostics, MOS-bin analysis, feature distributions, and Grad-CAM
+- Checkpoint contracts connecting training artifacts to batch inference, FastAPI serving, and browser-based evaluation
+- A browser workbench for upload, scoring, session-scoped history, and model interpretation
+- SQLite-backed evaluation history for internal single-instance deployments, with a stateless storage mode for protected public deployments
+- Optional Ollama integration for technical quality descriptions and auxiliary subjective scoring, kept separate from the core IQA/VQA model
+- Docker/Podman deployment with Nginx, health checks, deployment profiles, GitHub Actions validation, and `uv`-managed environments
 
-The project connects data validation, model training, evaluation, checkpoint management, and inference serving in one reproducible workflow.
+The project treats data validation, leakage control, model evaluation, artifact management, and inference delivery as one reproducible ML engineering workflow.
 
-## What I use most
+## Tech I use most
 
-Python · PyTorch · FastAPI · Docker · GitHub Actions · Bash · Makefile
+Python · PyTorch · OpenCV · Decord · FastAPI · Docker · GitHub Actions · Bash
 
 ## Contribution trail
 
@@ -65,10 +58,12 @@ Python · PyTorch · FastAPI · Docker · GitHub Actions · Bash · Makefile
   </picture>
 </div>
 
+## What I’m looking for
+
+Entry-level roles or internships in ML engineering, computer vision, inference systems, or backend engineering for AI products.
+
+I care about reproducibility, clear interfaces, and making ML workflows easier to run and maintain.
+
 ## Let's connect
-
-I'm looking for entry-level engineering roles or internships involving ML systems, infrastructure, platform engineering, or developer tooling.
-
-I care about code quality, reproducibility, and making complex workflows easier to run and maintain.
 
 Reach me at [icey08852@gmail.com](mailto:icey08852@gmail.com).

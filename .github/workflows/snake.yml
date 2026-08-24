@@ -7,25 +7,26 @@ on:
   push:
     branches: [main]
 
-permissions:
-  contents: write
+permissions: {}
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 5
+    permissions:
+      contents: write
     steps:
       - name: Generate contribution animation
-        uses: Platane/snk/svg-only@v3
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?color_snake=%2357606a&color_dots=%23161b22,%2318211d,%231b2922,%231e3227,%23223c2d
+            dist/github-contribution-grid-snake.svg?color_snake=%23c084fc
+            dist/github-contribution-grid-snake-dark.svg?color_snake=%23c084fc&color_dots=%23161b22,%2318211d,%231b2922,%231e3227,%23223c2d
             dist/github-contribution-grid-snake-mobile-dark.svg?color_snake=%23c084fc&color_dots=%23161b22,%230e4429,%23006d32,%2326a641,%2339d353
 
       - name: Publish animation to output branch
-        uses: crazy-max/ghaction-github-pages@v4
+        uses: crazy-max/ghaction-github-pages@df5cc2bfa78282ded844b354faee141f06b41865 # v4
         with:
           target_branch: output
           build_dir: dist

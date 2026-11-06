@@ -15,13 +15,13 @@
 </p>
 
 I build reproducible machine-learning systems and the engineering tooling around them. My current
-focus is no-reference image and video quality assessment (IQA/VQA) end to end: data validation,
+focus is image and video quality assessment (IQA/VQA) end to end: data validation,
 model training, evaluation, interpretability, and a FastAPI + Nginx deployment.
 
 ## What I build
 
 - **ML engineering** — configuration-driven training, evaluation, checkpoints, and experiment artifacts
-- **Computer vision** — no-reference image and video quality assessment with spatial and temporal modeling
+- **Computer vision** — image and video quality assessment with spatial and temporal modeling
 - **Serving & deployment** — FastAPI services, batch inference, Docker/Podman, Nginx, and CI validation
 
 ---
@@ -30,7 +30,7 @@ model training, evaluation, interpretability, and a FastAPI + Nginx deployment.
 
 ### [deep-vqa-framework](https://github.com/autentisitet/deep-vqa-framework)
 
-A PyTorch platform for no-reference image and video quality assessment, covering data checks,
+A PyTorch platform for image and video quality assessment, covering data checks,
 model training, evaluation, and inference deployment.
 
 - A unified `IQAVQANet` for image IQA and video VQA, using configurable ImageNet backbones and Transformer-based temporal fusion

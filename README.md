@@ -5,8 +5,8 @@
 </p>
 
 <p align="center">
-  <a href="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=2500&pause=900&color=58A6FF&center=true&vCenter=true&width=600&lines=ML+Engineering+%C2%B7+Computer+Vision;Inference+Systems+%C2%B7+Reproducible+Software">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=2500&pause=900&color=58A6FF&center=true&vCenter=true&width=600&lines=ML+Engineering+%C2%B7+Computer+Vision;Inference+Systems+%C2%B7+Reproducible+Software" alt="ML Engineering, Computer Vision, Inference Systems" />
+  <a href="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=2500&pause=900&color=58A6FF&center=true&vCenter=true&width=600&lines=ML+Engineering+%C2%B7+Computer+Vision;Reproducible+Software+%C2%B7+Repo+Quality">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=2500&pause=900&color=58A6FF&center=true&vCenter=true&width=600&lines=ML+Engineering+%C2%B7+Computer+Vision;Reproducible+Software+%C2%B7+Repo+Quality" alt="ML Engineering, Computer Vision, Reproducible Software" />
   </a>
 </p>
 
@@ -14,21 +14,24 @@
   Electronic Information Engineering undergraduate at Shenzhen University · Class of 2027
 </p>
 
-I build reproducible machine-learning systems that connect data validation, model training, evaluation, and inference delivery.
-
-My current focus is image and video quality assessment, with an emphasis on reliable data workflows, PyTorch model development, and practical inference services.
+I build reproducible machine-learning systems and the engineering tooling around them. My current
+focus is no-reference image and video quality assessment (IQA/VQA) end to end: data validation,
+model training, evaluation, interpretability, and a FastAPI + Nginx deployment.
 
 ## What I build
 
 - **ML engineering** — configuration-driven training, evaluation, checkpoints, and experiment artifacts
-- **Computer vision** — image and video quality assessment with spatial and temporal modeling
-- **Inference systems** — FastAPI services, batch inference, containerization, and CI validation
+- **Computer vision** — no-reference image and video quality assessment with spatial and temporal modeling
+- **Serving & deployment** — FastAPI services, batch inference, Docker/Podman, Nginx, and CI validation
 
-## Featured project
+---
+
+## Featured projects
 
 ### [deep-vqa-framework](https://github.com/autentisitet/deep-vqa-framework)
 
-A PyTorch platform for no-reference image and video quality assessment, covering data checks, model training, evaluation, and inference deployment.
+A PyTorch platform for no-reference image and video quality assessment, covering data checks,
+model training, evaluation, and inference deployment.
 
 - A unified `IQAVQANet` for image IQA and video VQA, using configurable ImageNet backbones and Transformer-based temporal fusion
 - Media integrity checks that decode inputs before training and isolate unreadable samples
@@ -37,14 +40,21 @@ A PyTorch platform for no-reference image and video quality assessment, covering
 - Evaluation and interpretability workflows covering PLCC, SROCC, KROCC, RMSE, residual diagnostics, MOS-bin analysis, feature distributions, and Grad-CAM
 - A browser workbench for uploading media, running selected checkpoints, viewing scores and history, and inspecting model interpretations
 - SQLite-backed evaluation history for internal single-instance deployments, with a stateless storage mode for protected public deployments
-- Optional Ollama integration for technical quality descriptions and auxiliary subjective scoring, kept separate from the core IQA/VQA model
 - Docker/Podman deployment with Nginx, health checks, deployment profiles, GitHub Actions validation, and `uv`-managed environments
 
-The project treats data validation, leakage control, model evaluation, artifact management, and inference delivery as one reproducible ML engineering workflow.
+### [repo-maintenance-skills](https://github.com/autentisitet/repo-maintenance-skills)
+
+A set of Codex skills that turn common engineering conventions into reusable workflows, covering
+documentation, GitHub Actions hardening, repository hygiene, project layout, frontend/backend
+quality, and Docker/Podman deployment.
+
+---
 
 ## Tech I use most
 
 Python · PyTorch · OpenCV · FastAPI · SQLite · Nginx · Docker/Podman · Makefile · GitHub Actions · Bash
+
+---
 
 ## Contribution trail
 
@@ -57,11 +67,15 @@ Python · PyTorch · OpenCV · FastAPI · SQLite · Nginx · Docker/Podman · Ma
   </picture>
 </div>
 
-## What I’m looking for
+---
 
-Entry-level roles or internships in ML engineering, computer vision, inference systems, or backend engineering for AI products.
+## What I'm looking for
+
+Entry-level roles or internships in ML engineering, computer vision, or backend engineering.
 
 I care about reproducibility, clear interfaces, and making ML workflows easier to run and maintain.
+
+---
 
 ## Let's connect
 

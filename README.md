@@ -28,7 +28,7 @@ model training, evaluation, interpretability, and a FastAPI + Nginx deployment.
 
 ## Featured projects
 
-### [deep-vqa-framework](https://github.com/autentisitet/deep-vqa-framework)
+### [deep-vqa-platform](https://github.com/autentisitet/deep-vqa-platform)
 
 A PyTorch platform for image and video quality assessment, covering data checks,
 model training, evaluation, and inference deployment.
@@ -48,11 +48,20 @@ A set of Codex skills that turn common engineering conventions into reusable wor
 documentation, GitHub Actions hardening, repository hygiene, project layout, frontend/backend
 quality, and Docker/Podman deployment.
 
+### [python-engineering-skills](https://github.com/autentisitet/python-engineering-skills)
+
+A collection of focused Codex skills for recurring Python engineering decisions and code review in
+medium and large repositories.
+
+It covers domain modeling, callable and caching decisions, scikit-learn workflows, file-processing
+CLIs, plotting, logging, media processing, and binary buffers, with cross-platform project links,
+package validation, routing datasets, and observed Codex discovery and activation evaluations.
+
 ---
 
 ## Tech I use most
 
-Python · PyTorch · OpenCV · FastAPI · SQLite · Nginx · Docker/Podman · Makefile · GitHub Actions · Bash
+Python · PyTorch · OpenCV · FastAPI · SQLite · Nginx · Docker/Podman · Makefile · GitHub Actions · Codex · Bash
 
 ---
 

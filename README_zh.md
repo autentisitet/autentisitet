@@ -27,7 +27,7 @@
 
 ## 代表项目
 
-### [deep-vqa-framework](https://github.com/autentisitet/deep-vqa-framework)
+### [deep-vqa-platform](https://github.com/autentisitet/deep-vqa-platform)
 
 一个基于 PyTorch 的图像与视频质量评价平台，覆盖数据检查、模型训练、评估和推理部署。
 
@@ -45,11 +45,18 @@
 一组 Codex 技能，把常见工程约定变成可复用工作流，覆盖文档、GitHub Actions 加固、仓库卫生、
 项目布局、前后端质量，以及 Docker/Podman 部署。
 
+### [python-engineering-skills](https://github.com/autentisitet/python-engineering-skills)
+
+一组面向中大型 Python 仓库的 Codex skills，用于沉淀反复出现的工程决策与代码审查标准。
+
+覆盖领域建模、可调用对象与缓存、scikit-learn 工作流、文件处理 CLI、绘图、日志、媒体处理和二进制缓冲区，
+并提供跨平台项目级安装工具、package 校验、路由数据集，以及可观察的 Codex 发现与激活评测。
+
 ---
 
 ## 常用技术
 
-Python · PyTorch · OpenCV · FastAPI · SQLite · Nginx · Docker/Podman · Makefile · GitHub Actions · Bash
+Python · PyTorch · OpenCV · FastAPI · SQLite · Nginx · Docker/Podman · Makefile · GitHub Actions · Codex · Bash
 
 ---
 

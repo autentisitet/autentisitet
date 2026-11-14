@@ -44,9 +44,10 @@ model training, evaluation, and inference deployment.
 
 ### [repo-maintenance-skills](https://github.com/autentisitet/repo-maintenance-skills)
 
-A set of Codex skills that turn common engineering conventions into reusable workflows, covering
-documentation, GitHub Actions hardening, repository hygiene, project layout, frontend/backend
-quality, and Docker/Podman deployment.
+Codex skills for repository maintenance and skill authoring, with reusable workflows for
+documentation, GitHub Actions, repository hygiene, project layout, frontend/backend quality,
+PowerShell, and Docker/Podman deployment. The repository also includes skill validation and
+routing evaluations.
 
 ### [python-engineering-skills](https://github.com/autentisitet/python-engineering-skills)
 

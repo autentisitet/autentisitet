@@ -42,8 +42,9 @@
 
 ### [repo-maintenance-skills](https://github.com/autentisitet/repo-maintenance-skills)
 
-一组 Codex 技能，把常见工程约定变成可复用工作流，覆盖文档、GitHub Actions 加固、仓库卫生、
-项目布局、前后端质量，以及 Docker/Podman 部署。
+一组用于仓库维护和技能编写的 Codex 技能，将常见工程约定整理为可复用工作流，覆盖文档、
+GitHub Actions、仓库卫生、项目布局、前后端质量、PowerShell 和 Docker/Podman 部署。
+仓库还提供技能包校验与路由评测。
 
 ### [python-engineering-skills](https://github.com/autentisitet/python-engineering-skills)
 

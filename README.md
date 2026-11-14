@@ -50,12 +50,13 @@ quality, and Docker/Podman deployment.
 
 ### [python-engineering-skills](https://github.com/autentisitet/python-engineering-skills)
 
-A collection of focused Codex skills for recurring Python engineering decisions and code review in
-medium and large repositories.
+Reusable Codex skills for Python engineering and code review in medium and large repositories.
+They turn recurring decisions into practical review criteria for agent-generated changes.
 
-It covers domain modeling, callable and caching decisions, scikit-learn workflows, file-processing
-CLIs, plotting, logging, media processing, and binary buffers, with cross-platform project links,
-package validation, routing datasets, and observed Codex discovery and activation evaluations.
+The skills cover domain modeling, callable and caching decisions, scikit-learn workflows,
+file-processing CLIs, plotting, logging, media processing, and binary buffers. The repository also
+includes cross-platform project installation, package validation, routing datasets, and Codex skill
+discovery and activation evaluations.
 
 ---
 

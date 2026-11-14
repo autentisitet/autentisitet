@@ -47,10 +47,11 @@
 
 ### [python-engineering-skills](https://github.com/autentisitet/python-engineering-skills)
 
-一组面向中大型 Python 仓库的 Codex skills，用于沉淀反复出现的工程决策与代码审查标准。
+一组面向中大型 Python 仓库的可复用 Codex 技能，将反复出现的工程决策整理为代码审查准则，
+帮助审查智能体生成的改动。
 
-覆盖领域建模、可调用对象与缓存、scikit-learn 工作流、文件处理 CLI、绘图、日志、媒体处理和二进制缓冲区，
-并提供跨平台项目级安装工具、package 校验、路由数据集，以及可观察的 Codex 发现与激活评测。
+技能覆盖领域建模、可调用对象与缓存、scikit-learn 工作流、文件处理 CLI、绘图、日志、媒体处理和二进制缓冲区。
+仓库还提供跨平台项目级安装工具、技能包校验、路由数据集，以及 Codex 技能发现与激活评测。
 
 ---
 
